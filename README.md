@@ -3,9 +3,11 @@
 #### 介绍
 **高仿有妖气漫画APP（最新V5.0版本）核心界面功能**
 
-高仿有妖气漫画APP开发语言组件：Swift5(Moya+Alamofire/HandyJSON/Kingfisher/SnapKit/MJRefresh)
+高仿有妖气漫画APP开发语言组件：Swift5(Moya+Alamofire、HandyJSON、Kingfisher、SnapKit、MJRefresh)
 
-注：本项目基于旧版本重制界面、接口和功能。仅供Swift开发新手学习和借鉴，大神轻喷😁。给Star✨的JJ增长10cm~
+注：本项目基于旧版本重制界面、接口和功能。仅供Swift开发新手学习和借鉴，大神轻喷😁。
+
+**Coding不易，给🌟Star⭐的JJ都增大10cm👍~**
 
 #### 项目截图
 ###### 1. 首页
