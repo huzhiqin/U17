@@ -3,14 +3,14 @@
 #### 介绍
 {**高仿有妖气漫画APP（最新V5.0版本）核心界面功能**
 高仿有妖气漫画APP开发语言组件：Swift5(Moya+Alamofire/HandyJSON/Kingfisher/SnapKit/MJRefresh)
-注：本项目仅供Swift开发新手学习和借鉴，大神轻喷😁。给Star✨的JJ增长10cm~
+注：本项目基于旧版本重制界面、接口和功能。仅供Swift开发新手学习和借鉴，大神轻喷😁。给Star✨的JJ增长10cm~
 
 #### 项目截图
 
 
 #### 特别鸣谢:
 
-1.  lb2281075105 [旧版仿有妖气漫画APP](https://github.com/lb2281075105/LBU25-Swift)}
+lb2281075105 [旧版仿有妖气漫画APP源代码](https://github.com/lb2281075105/LBU25-Swift)
 
 
 #### 声明:
