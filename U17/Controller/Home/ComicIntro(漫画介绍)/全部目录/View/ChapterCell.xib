@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChapterCell" rowHeight="100" id="LIi-nV-pjE" customClass="ChapterCell" customModule="U17" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LIi-nV-pjE" id="Uw5-lU-95q">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="normal_placeholder_h" translatesAutoresizingMaskIntoConstraints="NO" id="avK-Is-Vt3">
+                        <rect key="frame" x="12" y="10" width="130" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="130" id="5MC-gk-5ev"/>
+                            <constraint firstAttribute="height" constant="80" id="oTy-HW-4xD"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onlyVip" translatesAutoresizingMaskIntoConstraints="NO" id="2RB-W8-MN0">
+                        <rect key="frame" x="12" y="10" width="130" height="80"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第 0 话" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4H-c1-DrG">
+                        <rect key="frame" x="154" y="25" width="240" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第 0 话 2020-00-00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NeD-Fu-wB8">
+                        <rect key="frame" x="154" y="55.5" width="240" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="avK-Is-Vt3" firstAttribute="leading" secondItem="Uw5-lU-95q" secondAttribute="leading" constant="12" id="55I-4t-k7W"/>
+                    <constraint firstItem="NeD-Fu-wB8" firstAttribute="top" secondItem="q4H-c1-DrG" secondAttribute="bottom" constant="10" id="A5M-m9-AlN"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="q4H-c1-DrG" secondAttribute="trailing" id="RI5-m3-Nad"/>
+                    <constraint firstItem="2RB-W8-MN0" firstAttribute="top" secondItem="avK-Is-Vt3" secondAttribute="top" id="bDl-tR-HsP"/>
+                    <constraint firstItem="2RB-W8-MN0" firstAttribute="bottom" secondItem="avK-Is-Vt3" secondAttribute="bottom" id="btj-0Y-sG9"/>
+                    <constraint firstItem="avK-Is-Vt3" firstAttribute="centerY" secondItem="Uw5-lU-95q" secondAttribute="centerY" id="dj2-cz-JWL"/>
+                    <constraint firstItem="NeD-Fu-wB8" firstAttribute="leading" secondItem="q4H-c1-DrG" secondAttribute="leading" id="hUG-rc-Dqg"/>
+                    <constraint firstItem="NeD-Fu-wB8" firstAttribute="trailing" secondItem="q4H-c1-DrG" secondAttribute="trailing" id="kyB-qR-es5"/>
+                    <constraint firstItem="2RB-W8-MN0" firstAttribute="leading" secondItem="avK-Is-Vt3" secondAttribute="leading" id="nra-d5-7nN"/>
+                    <constraint firstItem="2RB-W8-MN0" firstAttribute="trailing" secondItem="avK-Is-Vt3" secondAttribute="trailing" id="se9-mo-C5t"/>
+                    <constraint firstItem="q4H-c1-DrG" firstAttribute="leading" secondItem="avK-Is-Vt3" secondAttribute="trailing" constant="12" id="uDd-1i-nik"/>
+                    <constraint firstItem="q4H-c1-DrG" firstAttribute="centerY" secondItem="avK-Is-Vt3" secondAttribute="centerY" constant="-15" id="xM5-jj-8O5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="chapterIndex" destination="q4H-c1-DrG" id="Adm-tg-GPn"/>
+                <outlet property="cover" destination="avK-Is-Vt3" id="Aqw-Ge-RUX"/>
+                <outlet property="publish_time" destination="NeD-Fu-wB8" id="mEx-XE-WU6"/>
+                <outlet property="topImg" destination="2RB-W8-MN0" id="3L6-7C-Jev"/>
+            </connections>
+            <point key="canvasLocation" x="659" y="56"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="normal_placeholder_h" width="205" height="128"/>
+        <image name="onlyVip" width="111" height="59"/>
+    </resources>
+</document>
