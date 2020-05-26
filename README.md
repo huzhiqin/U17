@@ -11,19 +11,20 @@
 
 #### 项目截图
 ###### 1. 首页
-<img src="项目截图/1.png" width="375">
+<img src="项目截图/1.jpg" width="375">
 
 ###### 2. 漫画详情
-<img src="项目截图/2.png" width="375">
+<img src="项目截图/2.jpg" width="375">
 
 ###### 3. 漫画阅读
-<img src="项目截图/3.png" width="375">
+<img src="项目截图/3.jpg" width="375">
 
 ###### 4. 个人中心
-<img src="项目截图/4.png" width="375">
+<img src="项目截图/4.jpg" width="375">
 
 #### 特别鸣谢:
 
+spicyShrimp [旧版仿有妖气漫画APP源代码](https://github.com/spicyShrimp/U17)
 lb2281075105 [旧版仿有妖气漫画APP源代码](https://github.com/lb2281075105/LBU25-Swift)
 
 
