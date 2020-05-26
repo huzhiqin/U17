@@ -1,15 +1,24 @@
 # U17
 
 #### 介绍
-{**高仿有妖气漫画APP（最新V5.0版本）核心界面功能**
+**高仿有妖气漫画APP（最新V5.0版本）核心界面功能**
+
 高仿有妖气漫画APP开发语言组件：Swift5(Moya+Alamofire/HandyJSON/Kingfisher/SnapKit/MJRefresh)
+
 注：本项目基于旧版本重制界面、接口和功能。仅供Swift开发新手学习和借鉴，大神轻喷😁。给Star✨的JJ增长10cm~
 
 #### 项目截图
-![image](https://github.com/huzhiqin/U17/项目截图/1.png)
-![image](https://github.com/huzhiqin/U17/项目截图/2.png)
-![image](https://github.com/huzhiqin/U17/项目截图/3.png)
-![image](https://github.com/huzhiqin/U17/项目截图/4.png)
+###### 1. 首页
+<img src="项目截图/1.png" width="375">
+
+###### 2. 漫画详情
+<img src="项目截图/2.png" width="375">
+
+###### 3. 漫画阅读
+<img src="项目截图/3.png" width="375">
+
+###### 4. 个人中心
+<img src="项目截图/4.png" width="375">
 
 #### 特别鸣谢:
 
