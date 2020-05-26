@@ -173,31 +173,7 @@ extension HomeVC: UCollectionViewSectionBackgroundLayoutDelegateLayout, UICollec
             headerView.iconView.kf.setImage(urlString: model.moduleInfo?.icon)
             headerView.titleLabel.text = model.moduleInfo?.title
             headerView.moreActionClosure { [weak self] in
-//                if model.comicType == .thematic {
-//                    let vc = PageController(titles: ["漫画",
-//                                                          "次元"],
-//                                                 vcs: [SpecialController(argCon: 2),
-//                                                       SpecialController(argCon: 4)],
-//                                                 pageStyle: .navgationBarSegment)
-//                    self?.navigationController?.pushViewController(vc, animated: true)
-//                }
-//                else if model.comicType == .animation {
-//                    let vc = WebController(url: "http://m.u17.com/wap/cartoon/list")
-//                    vc.title = "动画"
-//                    self?.navigationController?.pushViewController(vc, animated: true)
-//                } else if model.comicType == .update {
-//                    let vc = UpdateListController(argCon: model.argCon,
-//                                                       argName: model.argName,
-//                                                       argValue: model.argValue)
-//                    vc.title = model.itemTitle
-//                    self?.navigationController?.pushViewController(vc, animated: true)
-//                } else {
-//                    let vc = modelController(argCon: model.argCon,
-//                                                      argName: model.argName,
-//                                                      argValue: model.argValue)
-//                    vc.title = model.itemTitle
-//                    self?.navigationController?.pushViewController(vc, animated: true)
-//                }
+                
             }
             return headerView
         } else {
@@ -254,7 +230,7 @@ extension HomeVC: UCollectionViewSectionBackgroundLayoutDelegateLayout, UICollec
         let storyboard = UIStoryboard(name: "ComicIntroVC", bundle: nil)
         let cimicIntroVC = storyboard.instantiateViewController(withIdentifier: "ComicIntroVC") as! ComicIntroVC
         
-        cimicIntroVC.comicId = comicModel?.comicId as! Int
+        cimicIntroVC.comicId = comicModel?.comicId ?? 0
         navigationController?.pushViewController(cimicIntroVC, animated: true)
 //        guard let item = model.comics?[indexPath.row] else { return }
 //

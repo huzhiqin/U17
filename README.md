@@ -6,7 +6,10 @@
 注：本项目基于旧版本重制界面、接口和功能。仅供Swift开发新手学习和借鉴，大神轻喷😁。给Star✨的JJ增长10cm~
 
 #### 项目截图
-
+![首页](https://github.com/huzhiqin/U17/项目截图/1.png)
+![漫画介绍页](https://github.com/huzhiqin/U17/项目截图/2.png)
+![看漫画页](https://github.com/huzhiqin/U17/项目截图/3.png)
+![个人中心页](https://github.com/huzhiqin/U17/项目截图/4.png)
 
 #### 特别鸣谢:
 
