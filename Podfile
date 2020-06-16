@@ -1,6 +1,8 @@
 platform :ios, '9.0'
-source 'https://github.com/CocoaPods/Specs.git'
+
 target 'U17' do
+    use_frameworks!
+  inhibit_all_warnings!
 
 pod 'SnapKitExtend'
 pod 'Then'
