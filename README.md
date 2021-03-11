@@ -9,7 +9,7 @@
 
 ##### 本项目已删除Pod源文件，Clone下来后麻烦自己pod install一下哈~
 
-**Coding不易，给🌟Star⭐的JJ都增大10cm👍~**
+**Coding不易，给颗小🌟吧👍~**
 
 #### 项目截图
 ###### GIF
