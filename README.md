@@ -5,7 +5,7 @@
 
 高仿有妖气漫画APP开发语言组件：Swift5(Moya+Alamofire、HandyJSON、Kingfisher、SnapKit、MJRefresh)
 
-注：本项目基于旧版本重制界面、接口和功能。仅供Swift开发新手学习和借鉴，大神轻喷😁。
+注：本项目基于旧版本重制界面、接口和功能。仅供Swift开发新手学习和借鉴😁。
 
 ##### 本项目已删除Pod源文件，Clone下来后麻烦自己pod install一下哈~
 
